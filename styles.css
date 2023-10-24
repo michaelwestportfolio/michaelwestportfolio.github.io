@@ -78,14 +78,10 @@ h2 {
 }
 
 .caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7); /* Background color for text */
-    color: #fff; /* Text color */
-    padding: 10px;
     text-align: center;
+    color: #fff; /* Text color */
+    background: rgba(0, 0, 0, 0.7); /* Background color for text */
+    padding: 10px;
     font-weight: bold;
 }
 
