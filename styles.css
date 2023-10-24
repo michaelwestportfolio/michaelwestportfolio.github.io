@@ -77,22 +77,16 @@ h2 {
     opacity: 0.25;
 }
 
-.overlay-text {
+.caption {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); /* Background color for text */
     color: #fff; /* Text color */
-    background: rgba(0, 0, 0, 0.7); /* Background color for better text visibility */
-    padding: 10px; /* Adjust as needed */
-    width: 70%; /* Adjust the width to your liking */
-    opacity: 1; /* Text is visible by default */
-    transition: opacity 0.3s ease; /* Smooth transition on hover */
-}
-
-.project:hover .overlay-text {
-    opacity: 0; /* Hide text on hover */
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .project {
