@@ -84,8 +84,15 @@ h2 {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff; /* Text color */
-    background: rgba(0, 0, 0, 0.5); /* Background color for better text visibility */
+    background: rgba(0, 0, 0, 0.7); /* Background color for better text visibility */
     padding: 10px; /* Adjust as needed */
+    width: 70%; /* Adjust the width to your liking */
+    opacity: 1; /* Text is visible by default */
+    transition: opacity 0.3s ease; /* Smooth transition on hover */
+}
+
+.project:hover .overlay-text {
+    opacity: 0; /* Hide text on hover */
 }
 
 .project {
