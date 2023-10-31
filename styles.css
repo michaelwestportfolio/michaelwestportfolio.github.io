@@ -135,6 +135,24 @@ h2 {
     color: #eaeaea;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.image {
+    width: 100%;
+    padding-top: 100%; /* Creates a square container for the image */
+    position: relative;
+}
+
+.image img {
+    object-fit: cover; /* Ensures the image fills the square container */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 /* Footer styles */
 footer {
     background-color: #333;
