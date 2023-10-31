@@ -40,27 +40,6 @@
         </div>
     </section>
 
-<!-- Project Pop-up Overlays -->
-<div class="project-overlay" id="project1">
-    <div class="project-popup">
-        <span class="close-btn" onclick="hideProjectPopup('project1')">&times;</span>
-        <!-- Your project details for Project 1 -->
-        <h3>Project 1 Details</h3>
-        <p>Description of Project 1.</p>
-        <!-- Add more details as needed -->
-    </div>
-</div>
-
-<div class="project-overlay" id="project2">
-    <div class="project-popup">
-        <span class="close-btn" onclick="hideProjectPopup('project2')">&times;</span>
-        <!-- Your project details for Project 2 -->
-        <h3>Project 2 Details</h3>
-        <p>Description of Project 2.</p>
-        <!-- Add more details as needed -->
-    </div>
-</div>
-
 <section id="contact">
     <h2>Contact</h2>
     <p>You can reach me at <a href="mailto:your-email@example.com">mcwest@uci.edu</a>.</p>
@@ -72,7 +51,8 @@
 <!-- Contact section and footer, if applicable... -->
 <script>
         function showProjectPopup(id) {
-            document.getElementById(id).style.display = "block";
+            var popup = document.getElementById(id);
+            popup.style.display = "block";
         }
 </script>
 </body>
