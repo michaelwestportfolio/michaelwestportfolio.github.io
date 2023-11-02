@@ -183,9 +183,8 @@ h2 {
     cursor: pointer;
 }
 
-.image-grid a p {
-    text-decoration: none;
-    color: #333; /* Set the desired text color */
+a {
+  color: inherit;
 }
 
 /* Footer styles */
