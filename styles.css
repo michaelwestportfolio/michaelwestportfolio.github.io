@@ -182,6 +182,12 @@ h2 {
     right: 10px;
     cursor: pointer;
 }
+
+.image-grid a p {
+    text-decoration: none;
+    color: #333; /* Set the desired text color */
+}
+
 /* Footer styles */
 footer {
     background-color: #333;
