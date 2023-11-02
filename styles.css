@@ -183,8 +183,9 @@ h2 {
     cursor: pointer;
 }
 
-a {
-  color: inherit;
+.image-grid a {
+    text-decoration: none; /* Remove underlines */
+    color: inherit; /* Inherit text color from the parent element */
 }
 
 /* Footer styles */
