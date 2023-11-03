@@ -117,6 +117,11 @@ h2 {
     overflow: hidden; /* Hide overflowing content */
 }
 
+.image img {
+    width: 100%; /* Allow the image to fill the container */
+    height: 100%; /* Maintain a square aspect ratio */
+    object-fit: cover; /* Crop the image to fill the container */
+}
 
 .image-grid a {
     text-decoration: none; /* Remove underlines */
