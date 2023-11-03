@@ -104,6 +104,11 @@ h2 {
     color: #eaeaea;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
