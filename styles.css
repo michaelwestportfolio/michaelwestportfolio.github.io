@@ -120,7 +120,7 @@ h2 {
 .image img {
     width: 100%; /* Allow the image to fill the container */
     height: 100%; /* Maintain a square aspect ratio */
-    object-fit: cover; /* Crop the image to fill the container */
+    object-fit: center; /* Crop the image to fill the container */
 }
 
 .image-grid a {
