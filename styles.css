@@ -115,12 +115,14 @@ h2 {
     height: 200px; /* Fixed height for square images */
     position: relative;
     overflow: hidden; /* Hide overflowing content */
+    border: 2px solid #333;
 }
 
 .image img {
     width: 100%; /* Allow the image to fill the container */
     height: 100%; /* Maintain a square aspect ratio */
     object-fit: center; /* Crop the image to fill the container */
+    opacity: 0.8;
 }
 
 .image-grid a {
