@@ -144,7 +144,7 @@ h2 {
     margin-right: auto;
     width: 50%;
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .project-pictures {
         width: 95%;
 /* Footer styles */
