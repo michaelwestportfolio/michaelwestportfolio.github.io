@@ -138,6 +138,12 @@ h2 {
     color: inherit; /* Inherit text color from the parent element */
 }
 
+.project-pictures {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
 /* Footer styles */
 footer {
     background-color: #333;
